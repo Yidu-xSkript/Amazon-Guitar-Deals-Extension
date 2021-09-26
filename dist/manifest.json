@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Amazon Guitar Deals Plugin",
+    "description": "Access Amazon Guitar Deals without the hassle but just a click when you're in need of any type of guitar, gear, or any recording equipments. Get deals, look through, consider, buy.",
+    "short_name": "AGD Analyzer Plugin",
+    "version": "1.0.0",
+    "action": {
+        "default_title": "Amazon Guitar Deals Plugin",
+        "default_icon": {
+            "16": "./images/icon.png",
+            "32": "./images/icon.png",
+            "48": "./images/icon.png",
+            "128": "./images/icon.png"
+        },
+        "default_popup": "./popup.html"
+    },
+    "icons": {
+        "16": "./images/icon.png",
+        "32": "./images/icon.png",
+        "48": "./images/icon.png",
+        "128": "./images/icon.png"
+    },
+    "host_permissions": [
+        "https://amazonguitardeals.com/"
+    ]
+}
